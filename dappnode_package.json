@@ -9,6 +9,12 @@
     "hash": "",
     "size": "",
     "restart": "always",
+    "volumes": [
+      "iexecschedulerdb:/data/db"
+    ],
+    "ports": [
+      "27017:27017"
+    ],
     "keywords": [
       "IEXEC",
       "SCHEDULER",
