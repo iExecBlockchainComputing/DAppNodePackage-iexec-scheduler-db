@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+    dappnodepackage-iexec-scheduler-db.public.dappnode.eth:
+        image: 'dappnodepackage-iexec-scheduler-db.public.dappnode.eth:0.0.1'
+        build: ./build
+        volumes:
+            - iexecschedulerdb:/data/db
+        ports:
+            - '27017:27017'
+volumes:
+    iexecschedulerdb: {}
+
+

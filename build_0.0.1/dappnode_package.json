@@ -1,0 +1,27 @@
+{
+  "name": "dappnodepackage-iexec-scheduler-db.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Dappnode Package for iexec scheduler db",
+  "avatar": "",
+  "type": "service",
+  "image": {
+    "path": "dappnodepackage-iexec-scheduler-db.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmdHW32Yzi1CkjztkUUQS2YeqZegT9vMoSq7zKFRAM1o6d",
+    "size": 69778843,
+    "restart": "always",
+    "volumes": [
+      "iexecschedulerdb:/data/db"
+    ],
+    "ports": [
+      "27017:27017"
+    ],
+    "keywords": [
+      "IEXEC",
+      "SCHEDULER",
+      "DB"
+    ]
+  },
+  "author": "francois branciard",
+  "license": "GPL-3.0",
+  "dependencies": {}
+}
