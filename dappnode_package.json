@@ -1,0 +1,21 @@
+{
+  "name": "dappnodepackage-iexec-scheduler-db.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Dappnode Package for iexec scheduler db",
+  "avatar": "",
+  "type": "service",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": "",
+    "restart": "always",
+    "keywords": [
+      "IEXEC",
+      "SCHEDULER",
+      "DB"
+    ]
+  },
+  "author": "francois branciard",
+  "license": "",
+  "dependencies": {}
+}
